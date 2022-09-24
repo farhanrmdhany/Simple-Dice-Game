@@ -20,6 +20,10 @@ body {
   padding: 5% 10%;
 }
 
+p{
+  padding-top: 3%;
+}
+
 .dice {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
