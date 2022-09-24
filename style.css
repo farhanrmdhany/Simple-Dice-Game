@@ -3,11 +3,11 @@ body {
   text-align: center;
 }
 
-.container-fluid{
+.container-fluid {
   width: 75%;
 }
 
-.heading{
+.heading {
   font-family: 'Lobster', cursive;
   font-size: 8rem;
   color: #4ECCA3;
@@ -15,25 +15,80 @@ body {
   margin: 3% 2% 2%;
 }
 
-.row{
+.row {
   position: relative;
   padding: 5% 10%;
 }
-.dice{
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    font-size: 2rem;
-    line-height: 1.5;
-    color: #4ECCA3;
+
+.dice {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #4ECCA3;
 }
 
-img{
+img {
   width: 60%;
 }
 
-.copyright{
+.copyright {
   margin-top: 2%;
   font-family: 'Indie Flower', cursive;
   color: white;
   font-size: 0.75rem;
+}
+
+@media (max-width: 960px) {
+  .heading {
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: #4ECCA3;
+    text-shadow: 3px 3px black;
+    margin: 1% 0.5% 1%;
+  }
+
+  .dice {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #4ECCA3;
+  }
+}
+
+@media (max-width: 960px) {
+  .heading {
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: #4ECCA3;
+    text-shadow: 3px 3px black;
+    margin: 1% 0.5% 1%;
+  }
+
+  .dice {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #4ECCA3;
+  }
+}
+
+@media (max-width: 720px) {
+  .heading {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: #4ECCA3;
+    text-shadow: 3px 3px black;
+    margin: 1% 0.5% 1%;
+  }
+
+  .dice {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4ECCA3;
+  }
 }
