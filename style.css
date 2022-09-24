@@ -1,0 +1,39 @@
+body {
+  background-color: #393E46;
+  text-align: center;
+}
+
+.container-fluid{
+  width: 75%;
+}
+
+.heading{
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  color: #4ECCA3;
+  text-shadow: 3px 3px black;
+  margin: 3% 2% 2%;
+}
+
+.row{
+  position: relative;
+  padding: 5% 10%;
+}
+.dice{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #4ECCA3;
+}
+
+img{
+  width: 60%;
+}
+
+.copyright{
+  margin-top: 2%;
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  font-size: 0.75rem;
+}
