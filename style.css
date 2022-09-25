@@ -1,6 +1,8 @@
 body {
   background-color: #393E46;
   text-align: center;
+  line-height: 1.5;
+  color: #4ECCA3;
 }
 
 .container-fluid {
@@ -10,14 +12,20 @@ body {
 .heading {
   font-family: 'Lobster', cursive;
   font-size: 8rem;
-  color: #4ECCA3;
   text-shadow: 3px 3px black;
   margin: 3% 2% 2%;
 }
 
+.direction {
+  font-family: cursive;
+  padding-top: 2%;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
 .row {
   position: relative;
-  padding: 5% 10%;
+  padding: 2% 10%;
 }
 
 p{
@@ -28,12 +36,10 @@ p{
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
   font-size: 2rem;
-  line-height: 1.5;
-  color: #4ECCA3;
 }
 
 img {
-  width: 60%;
+  width: 50%;
 }
 
 .copyright {
@@ -63,36 +69,30 @@ img {
 
 @media (max-width: 960px) {
   .heading {
-    font-family: 'Lobster', cursive;
     font-size: 5rem;
-    color: #4ECCA3;
-    text-shadow: 3px 3px black;
     margin: 1% 0.5% 1%;
   }
 
+  .direction{
+    font-size: 0.7rem;
+  }
+
   .dice {
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
     font-size: 1.5rem;
-    line-height: 1.5;
-    color: #4ECCA3;
   }
 }
 
 @media (max-width: 720px) {
   .heading {
-    font-family: 'Lobster', cursive;
     font-size: 3rem;
-    color: #4ECCA3;
-    text-shadow: 3px 3px black;
     margin: 1% 0.5% 1%;
   }
 
+  .direction{
+    font-size: 0.7rem;
+  }
+
   .dice {
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
     font-size: 1rem;
-    line-height: 1.5;
-    color: #4ECCA3;
   }
 }
